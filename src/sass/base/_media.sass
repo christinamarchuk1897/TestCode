@@ -1,0 +1,172 @@
+@media ( max-width: 1500px )
+    .swiper-outter 
+        .swiper-button-next
+            right: 0%
+        .swiper-button-prev
+            left: 0%
+@media  ( max-width: 1200px )
+    .swiper-pagination
+        left: 44%
+        bottom: -2% 
+        .swiper-pagination-bullet
+            margin: 0 10px
+    .swiper-outter .swiper-button-next, .swiper-outter .swiper-button-prev
+        top: 100%
+    .swiper-outter .swiper-button-next,
+        right: 25%
+    .swiper-outter .swiper-button-prev
+        left: 25%
+@media ( max-width: 1024px )
+    .hamburger
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        position: fixed
+        background-color: rgba(0, 0, 0, 0.7)
+        width: 100%
+        min-height: 50px
+        padding: 10px 30px
+        top: 0
+        z-index: 50
+    span
+        display: block
+        height: 2px
+        width: 25px
+        margin: 5px 0
+        background-color: #ffffff
+    .header_mobile
+        position: fixed
+        width: 60%
+        display: flex
+        flex-wrap: wrap
+        background-color: black
+        background-color: rgba(0, 0, 0, 0.7)
+        height: 100%
+        z-index: 50
+        align-items: center
+        left: -100%
+        transition: .5s all
+    .active
+        left: 0
+        min-height: 100%
+    .header__wrapper-logo 
+        padding-left: 65px
+    .mobile_wrapper
+        flex-direction: column
+        padding-right: 0
+        width: 100%
+        align-items: center
+        .logo
+            margin: 0 auto
+            padding-left: 68px
+        .header-nav
+            margin-top: 25px
+            flex-direction: column
+            padding: 0
+            &__links
+                font-size: 20px
+                margin: 10px 0
+    .swiper-pagination, .swiper-pagination-bullets
+        bottom: 10%
+    .swiper-outter .swiper-button-next, .swiper-outter .swiper-button-prev
+        top: 87%
+        
+@media ( max-width: 997px )
+    .main
+        height: 750px
+        .carousel-header
+            font-size: 44px
+        .swiper-outter .swiper-button-next, .swiper-outter .swiper-button-prev
+            top: 65%
+        .swiper-pagination, .swiper-pagination-bullets
+            display: none
+        .swiper-wrapper-custom
+            padding-top: 40px
+    .contacts
+        .contacts-map
+            flex-direction: column
+            padding: 0
+            .contacts-map__descr
+                width: 100%
+            .contacts-map__tabs
+                padding: 0
+                display: flex
+                flex-wrap: wrap
+                justify-content: center
+            .contacts-header
+                text-align: center
+            .contacts-subheader
+                text-align: center
+    .map
+        .map-content
+            top: 60%
+    #map_canvas
+        width: 100%
+    .footer
+        padding: 45px 0
+@media ( max-width: 767px )
+    .main
+        height: 600px
+        .carousel-header
+            font-size: 50px
+            padding-left: 0
+            line-height: 55px
+        .carousel-subheader
+            font-size: 15px
+            padding-left: 0
+            width: 95%
+        .carousel-button
+            margin: 18px auto
+        .swiper-outter .swiper-button-next, .swiper-outter .swiper-button-prev
+            top: 50%
+        .swiper-slide .video-container iframe 
+            display: none
+        .swiper-wrapper-custom
+            padding-top: 0
+    .map
+        .map-content
+            padding: 30px 0 0 30px
+            width: 265px
+            position: relative
+            display: contents
+        .map-work
+            text-align: center
+            .map-work__descr
+                justify-content: center
+        .map-title, .map-subtitle
+            text-align: center
+
+@media ( max-width: 575px )
+    .container
+        max-width: 100%
+        .row
+            margin: 0
+    .wrap
+        margin-top: 130px
+    
+@media ( max-width: 567px )
+    .main
+        height: 550px
+        .carousel-header
+            line-height: 55px      
+    .header_mobile
+        width: 80%
+    *
+        line-height: 1
+@media ( max-width: 500px )
+    .main
+        .carousel-header
+            font-size: 32px
+        .carousel-subheader
+            font-size: 13px
+        .swiper-outter
+            padding: 0 35px
+    .footer
+        .footer-nav
+            display: flex
+            flex-direction: column
+            margin-top: 30px
+            width: 100%
+            .footer-nav__links
+                margin: 10px 0
+    
